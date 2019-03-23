@@ -1,0 +1,26 @@
+{
+  "name": "FacebookHappyBirthdayBot",
+  "description": "Writes Happy Birthday to a list of users from Facebook!",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.UIAutomation.Activities": "[19.3.0]",
+    "UiPath.System.Activities": "[19.3.0]",
+    "UiPath.Excel.Activities": "[2.5.2]",
+    "UiPath.Mail.Activities": "[1.3.0]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.3.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
+}
